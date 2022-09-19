@@ -40,4 +40,3 @@ jobs:
           files: './scripts/**/*.sh;./scripts/**/*.ps1'
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           release-tag: ${{ env.GITHUB_TAG }}
-
